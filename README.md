@@ -3,8 +3,11 @@
 This documentation repository should be helpful in terms of how we want to collaborate together<br>
 and what we want to stick to, to be consistent as much as possible.
 
-> ⚠ Please notice: The following documentations are currently in a construction phase. The plan is, the community will review and discuss these points and will enrich the documentation to an commited state.
-
+> [!IMPORTANT]
+> The following documentations are created two years ago and have to be resturctured.<br>
+> The plan is, the community will review and discuss these points and will enrich the documentation to an commited state.<br>
+> So feel free to suggest or criticize any current "standard" - all good.
+>
 ### Table of contents
 
 - Contribution guideline
