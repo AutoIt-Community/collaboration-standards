@@ -77,7 +77,7 @@ One of the main reasons why this guidance and standards exists is consistency fo
 
 - do not force push into main (master) branch
 - do create a merge request of your feature branch into main (master)
-- wait for the code review approval, than merge your code into main (master) [^1]
+- wait for the code review approval, then merge your code into main (master) [^1]
 
 ### 5. Code review
 
