@@ -87,4 +87,5 @@
    git push origin --delete <feature-branch-name>
    ```
 
-   ==> You are now ready to start a new contribution!
+   ==> Done, now you are ready for your next PR.<br>
+   ==> Create a new branch and repeat the relevant steps.
