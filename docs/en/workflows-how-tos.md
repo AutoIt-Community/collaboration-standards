@@ -1,15 +1,7 @@
 ## Workflows and how-tos
 
-### Purpose
+### Getting Started with Git and GitHub
 
-...
+#### [Global configuration of Git](./git-flow-01-en.md)
 
-<br>
-
-### GitHub issues
-
-<br>
-
-### ...
-
-<br>
+#### [Create a local Git repository](./git-flow-02-en.md)

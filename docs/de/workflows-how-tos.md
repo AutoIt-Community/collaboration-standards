@@ -1,15 +1,7 @@
 ## Arbeitsabläufe und Anleitungen
 
-### Zweck
+### Einstieg in Git und GitHub
 
-...
+#### [Globale Konfiguration von Git](./git-flow-01-de.md)
 
-<br>
-
-### GitHub issues
-
-<br>
-
-### ...
-
-<br>
+#### [Lokales Git-Repository erstellen](./git-flow-02-de.md)
