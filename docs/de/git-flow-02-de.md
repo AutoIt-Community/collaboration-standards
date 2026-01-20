@@ -13,9 +13,9 @@
 4. **Füge** Dateien dem Repository hinzu.
 5. Optional: **Status anzeigen** (untracked).
 
-    ``` bash
-    git status
-    ```
+   ``` bash
+   git status
+   ```
 
    ==> Du solltest **untracked files** sehen (nicht verfolgte Dateien).
 
@@ -35,7 +35,7 @@
 
    ==> Du solltest **changes to be committed** sehen. Git zeigt: `new file: <Dateiname>`.
 
-8.  **Commit** die gestagten Dateien ins Repository.
+8. **Commit** die gestagten Dateien ins Repository.
 
    ``` bash
    git commit -m "<Commit-Nachricht>"

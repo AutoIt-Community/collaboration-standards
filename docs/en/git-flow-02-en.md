@@ -13,9 +13,9 @@
 4. **Add** files to the repository.
 5. Optional: See the **status** (untracked).
 
-    ``` bash
-    git status
-    ```
+   ``` bash
+   git status
+   ```
 
    ==> You should see **untracked files**.
 
@@ -35,7 +35,7 @@
 
    ==> You should see **changes to be committed**. Git says: `new file: <filename>`.
 
-8.  **Commit** the staged files to the repository.
+8. **Commit** the staged files to the repository.
 
    ``` bash
    git commit -m "<Commit message>"
