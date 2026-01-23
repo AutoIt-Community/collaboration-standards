@@ -81,6 +81,8 @@ git commit -m "Refactored: Usage of map data type instead of array."
 - do create a merge request of your feature branch into main
 - wait for the code review approval, then merge your code into main [^1]
 
+<br>
+
 ### 5. Code review
 
 To be defined.
