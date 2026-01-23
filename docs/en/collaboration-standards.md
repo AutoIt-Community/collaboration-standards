@@ -41,7 +41,7 @@ One of the main reasons why this guidance and standards exists is consistency fo
 
 <br>
 
-### 3. Commit messages
+### 3. Commit-message conventions
 
 **Usage**
 
@@ -60,34 +60,42 @@ One of the main reasons why this guidance and standards exists is consistency fo
 
 **Examples**
 
-- `git commit -m "Added: Login feature to main view."`
-- `git commit -m "Changed: Adjustment of the GUI layout."`
-- `git commit -m "Fixed: Broken label by set on top attribute"`
-- `git commit -m "Refactored: Usage of map data type instead of array."`
+``` bash
+git commit -m "Added: Three-part statusbar to the main GUI."
+git commit -m "Changed: Sort logic to DESC order instead of ASC."
+git commit -m "Fixed: Broken label by set correct attribute."
+git commit -m "Refactored: Usage of map data type instead of array."
+```
 
 **Why**
 
 - consistency
 - beside "[conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)" (cc) is the "Keep a Changelog" style another common way (more easy and more human readable than cc) to deal with
-- CHANGELOG.md file can be generated and maintained in an easy fashion
+- CHANGELOG.md file can be generated automatically when creating a new release
 
 <br>
 
 ### 4. Pull requests (merge requests)
 
-- do not force push into main (master) branch
-- do create a merge request of your feature branch into main (master)
-- wait for the code review approval, then merge your code into main (master) [^1]
+- do not force push into main (default) branch
+- do create a merge request of your feature branch into main
+- wait for the code review approval, then merge your code into main [^1]
 
 ### 5. Code review
+
+To be defined.
 
 <br>
 
 ### 6. Version bump (SemVer)
 
+To be defined.
+
 <br>
 
 ### 7. Changelog
+
+To be defined.
 
 <br>
 
@@ -105,9 +113,9 @@ One of the main reasons why this guidance and standards exists is consistency fo
 
 See [this](https://github.com/Sven-Seyfert/au3webdriver-boilerplate/releases) example release structure.
 
-| Choose a tag | Release title | Release description |
-| --- | --- | --- |
-| v0.13.2 | v0.13.2 - 2024-02-20 | Either copy the changelog information of the new release into the 'Release description' section. Or reference to the CHANGELOG.md file like "see CHANGELOG.md file" or similar. |
+| Choose a tag | Release title        | Release description |
+| ---          | ---                  | ---                 |
+| v0.13.2      | v0.13.2 - 2024-02-20 | Either copy the changelog information of the new release into the 'Release description' section. Or reference to the CHANGELOG.md file like "see CHANGELOG.md file" or similar. |
 
 **Why**
 

@@ -41,7 +41,7 @@ Einer der Hauptgründe für die Existenz dieser Leitlinien und Standards ist die
 
 <br>
 
-### 3. Commit Nachricht
+### 3. Konventionen für Commit-Nachrichten
 
 **Verwendung**
 
@@ -60,36 +60,44 @@ Einer der Hauptgründe für die Existenz dieser Leitlinien und Standards ist die
 
 **Beispiele**
 
-- `git commit -m "Added: Login feature to main view."`
-- `git commit -m "Changed: Adjustment of the GUI layout."`
-- `git commit -m "Fixed: Broken label by set on top attribute"`
-- `git commit -m "Refactored: Usage of map data type instead of array."`
+``` bash
+git commit -m "Added: Three-part statusbar to the main GUI."
+git commit -m "Changed: Sort logic to DESC order instead of ASC."
+git commit -m "Fixed: Broken label by set correct attribute."
+git commit -m "Refactored: Usage of map data type instead of array."
+```
 
 **Warum**
 
 - Einheitlichkeit
 - neben "[conventional commits](https://www.conventionalcommits.org/de/v1.0.0/)" (cc) ist der "Keep a Changelog" Stil ein verbreiteter Weg (jedoch einfacher und besser lesbar als cc) damit umzugehen
-- die CHANGELOG.md Datei kann auf einfache Weise generiert und verwaltet werden
+- die CHANGELOG.md Datei kann beim Erstellen einer neuen Version (Release) automatisch generiert werden
 
 <br>
 
 ### 4. Pull requests (merge requests)
 
-- pushe nicht direkt in den main (master) branch (kein force push)
-- erstellen den pull request aus deinem Feature Branch heraus in den main (master)
-- warte auf die Genehmigung der Codeüberprüfung (code review approval) und dann<br>führe deinen Code mit dem main (master) zusammen [^1]
+- pushe nicht direkt in den main (default) branch (kein force push)
+- erstellen den pull request aus deinem Feature Branch heraus in den main
+- warte auf die Genehmigung der Codeüberprüfung (code review approval) und dann<br>führe deinen Code mit dem main  zusammen [^1]
 
 <br>
 
 ### 5. Code review
 
+Wird noch definiert.
+
 <br>
 
 ### 6. Version hochzählen (SemVer)
 
+Wird noch definiert.
+
 <br>
 
 ### 7. Changelog (Änderungshistorie)
+
+Wird noch definiert.
 
 <br>
 
@@ -107,9 +115,9 @@ Einer der Hauptgründe für die Existenz dieser Leitlinien und Standards ist die
 
 Siehe [diese](https://github.com/Sven-Seyfert/au3webdriver-boilerplate/releases) Release-Struktur als Beispiel.
 
-| Choose a tag | Release title | Release description |
-| --- | --- | --- |
-| v0.13.2 | v0.13.2 - 2024-02-20 | Kopiere entweder den Text aus der Änderungshistorie (CHANGELOG) der neuen Version in den Abschnitt "Release description". Oder verweise auf die Datei CHANGELOG.md mit bspw. "see CHANGELOG.md file" oder ähnlichem. |
+| Choose a tag | Release title        | Release description |
+| ---          | ---                  | ---                 |
+| v0.13.2      | v0.13.2 - 2024-02-20 | Kopiere entweder den Text aus der Änderungshistorie (CHANGELOG) der neuen Version in den Abschnitt "Release description". Oder verweise auf die Datei CHANGELOG.md mit bspw. "see CHANGELOG.md file" oder ähnlichem. |
 
 **Warum**
 
